@@ -16,6 +16,7 @@
 		B97236B32C689C800006AA5F /* SingletonDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97236B22C689C800006AA5F /* SingletonDemoTests.swift */; };
 		B97236BD2C689C800006AA5F /* SingletonDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97236BC2C689C800006AA5F /* SingletonDemoUITests.swift */; };
 		B97236BF2C689C800006AA5F /* SingletonDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97236BE2C689C800006AA5F /* SingletonDemoUITestsLaunchTests.swift */; };
+		B97236CD2C689D310006AA5F /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97236CC2C689D310006AA5F /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B97236B82C689C800006AA5F /* SingletonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97236BC2C689C800006AA5F /* SingletonDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonDemoUITests.swift; sourceTree = "<group>"; };
 		B97236BE2C689C800006AA5F /* SingletonDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B97236CC2C689D310006AA5F /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		B972369A2C689C7F0006AA5F /* SingletonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B97236CB2C689D1F0006AA5F /* New Group */,
 				B972369B2C689C7F0006AA5F /* AppDelegate.swift */,
 				B972369D2C689C7F0006AA5F /* SceneDelegate.swift */,
 				B972369F2C689C7F0006AA5F /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				B97236BE2C689C800006AA5F /* SingletonDemoUITestsLaunchTests.swift */,
 			);
 			path = SingletonDemoUITests;
+			sourceTree = "<group>";
+		};
+		B97236CB2C689D1F0006AA5F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				B97236CC2C689D310006AA5F /* Singleton.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				B97236A02C689C7F0006AA5F /* ViewController.swift in Sources */,
 				B972369C2C689C7F0006AA5F /* AppDelegate.swift in Sources */,
 				B972369E2C689C7F0006AA5F /* SceneDelegate.swift in Sources */,
+				B97236CD2C689D310006AA5F /* Singleton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
